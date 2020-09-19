@@ -1,7 +1,7 @@
-# @uniswap/token-lists (beta)
+# @co-swap/token-lists (beta)
 
 [![Tests](https://github.com/Uniswap/token-lists/workflows/Tests/badge.svg)](https://github.com/Uniswap/token-lists/actions?query=workflow%3ATests)
-[![npm](https://img.shields.io/npm/v/@uniswap/token-lists)](https://unpkg.com/@uniswap/token-lists@latest/)
+[![npm](https://img.shields.io/npm/v/@co-swap/token-lists)](https://unpkg.com/@co-swap/token-lists@latest/)
 
 This package includes a JSON schema for token lists, and TypeScript utilities for working with token lists.
 
@@ -20,7 +20,7 @@ Tokens on token lists, and token lists themselves, are tagged so that users can 
 
 ## JSON Schema $id
 
-The JSON schema ID is [https://uniswap.org/tokenlist.schema.json](https://uniswap.org/tokenlist.schema.json)
+The JSON schema ID is [https://co-swap.org/tokenlist.schema.json](https://co-swap.org/tokenlist.schema.json)
 
 ## Validating token lists
 
@@ -51,7 +51,7 @@ npm package to take advantage of the JSON schema for validation and the TypeScri
 Otherwise, you are simply working with JSON. All the usual tools apply, e.g.:
 
 ```typescript
-import { TokenList, schema } from '@uniswap/token-lists'
+import { TokenList, schema } from '@co-swap/token-lists'
 
 // generate your token list however you like.
 const myList: TokenList = generateMyTokenList();
